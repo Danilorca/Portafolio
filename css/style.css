@@ -226,9 +226,10 @@ li {
 
 /*FOOTER*/
 .bg-footer{
-  height: 470px;
+
   background-color: #25283D;
   color: #E1E7DD;
+
 }
 
 .parrafo_footer {
@@ -253,4 +254,5 @@ li {
   font-style: normal;
   font-size: .8rem;
   color: #fdfffc;
+
 }
