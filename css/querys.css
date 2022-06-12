@@ -1,0 +1,145 @@
+/*MEDIDAS*/
+
+/*Móvil muy pequeño X-Small */
+@media (max-width: 575px) {
+  h1 {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .btn-principal {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .btn-secundario {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .header {
+    min-height: 80vh;
+    justify-content: center;
+  }
+
+  .perfil {
+    width: 60%;
+  }
+
+  .parrafo_footer{
+    font-size: 1rem;
+  }
+  .title_7{
+    font-size: 1.5rem;
+  }
+
+  .title_8{
+    font-size: .6rem;
+
+  }
+}
+
+
+
+/*Móvil pequeño Small sm*/
+@media (min-width: 576px) and (max-width: 767px) {
+  h1 {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .btn-principal {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .btn-secundario {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .header {
+    min-height: 80vh;
+    justify-content: center;
+  }
+
+  .perfil {
+    width: 60%;
+  }
+}
+
+/*Tablets Medium Md*/
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .btn-principal {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .btn-secundario {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .header {
+    min-height: 80vh;
+    justify-content: center;
+  }
+
+  .perfil {
+    width: 60%;
+  }
+}
+
+/*Pc escritorio lg Large*/
+@media (min-width: 992px) {
+  .boton-sm {
+    display: none;
+  }
+}

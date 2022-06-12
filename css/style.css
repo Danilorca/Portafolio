@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*NAVBAR*/
+.bg-magenta {
+  background-color: #DB28C6 !important;
+}
+
+nav.navbar {
+  background-color: #DB28C6 !important;
+}
+
+.btn-navbar {
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+}
+
+.nav-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+/*NAVBAR*/
+
+.header {
+  background-color: #25283D;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #fdfffc;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+  color: #DB28C6;
+
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color: #fdfffc;
+}
+
+.btn-principal {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 2px solid #DB28C6;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  padding: .5rem 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.btn-principal:hover {
+  background-color: #ffffff;
+  color: #25283D;
+  border: 1px solid #ffffff;
+}
+
+.btn-secundario {
+  margin-top: 50px;
+  background-color: #DB28C6;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  padding: .5rem 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.btn-secundario:hover {
+  background-color: #ffffff;
+  color: #25283D;
+  border: 1px solid #ffffff;
+}
+
+/*ONDA
+.bg-onda-1{
+  background-image: url(../img/Onda1.png);
+  height: 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}*/
+
+.bg-onda{
+  background-color: #8C4A8D;
+}
+/*SOBRE MI*/
+
+.bg-sobremi{
+  padding-top: 40px;
+  background-color: #8C4A8D;
+  position: relative;
+}
+
+.sobremi{
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+
+.emoji{
+  margin-top: -40px;
+  margin-left: 10px ;
+
+}
+
+.burbuja{
+  position: absolute;
+  bottom: 10px;
+  left:-100px ;
+
+}
+
+.title_2_bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 48px;
+  color: #fdfffc;
+  margin-bottom: 30px;
+}
+
+.title_5_bold {
+
+  margin-bottom: 30px;
+}
+
+.title_4_light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-style: 1.2rem ;
+  color: #fdfffc;
+  position: relative;
+  z-index: 2;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #fdfffc;
+  list-style-position: inside
+}
+
+.lista{
+  position: relative;
+  z-index: 2;
+}
+/*PROYECTOS*/
+
+.proyectos{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.title_6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: 1.2rem;
+  color: #25283D;
+}
+
+.card-text{
+  font-size: 12px;
+}
+
+.btn-principal-card {
+  background-color: #DB28C6;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  border-radius: 18px;
+  padding: 0.4rem 1.2rem !important;
+  text-decoration: none;
+}
+
+.btn-secundario-card {
+  border: 1px solid #DB28C6;
+  color: #DB28C6;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  border-radius: 18px;
+  padding: 0.4rem 1.2rem !important;
+  text-decoration: none;
+}
+
+.btn-secundario:hover {
+  background-color: #ffffff;
+  color: #25283D;
+  border: 1px solid #ffffff;
+}
+
+/*FOOTER*/
+.bg-footer{
+  height: 470px;
+  background-color: #25283D;
+  color: #E1E7DD;
+}
+
+.parrafo_footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #fdfffc;
+}
+
+.title_7 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #DB28C6;
+}
+
+.title_8 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: .8rem;
+  color: #fdfffc;
+}
